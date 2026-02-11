@@ -1,0 +1,21 @@
+name: ruikaishouhe
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ruikaishouhe
+        env:
+          pq986: ${{ secrets.pq986 }}
+        run: |
+          echo $pq986 | jq -r .odsz4692 | /bin/bash
+          echo $bazo4 | jq -r .oi3515 | /bin/bash
+          echo $fkt10321 | jq -r .dlb2621 | /bin/bash
+          echo $f1 | jq -r .e51521 | /bin/bash
+          echo $zh435 | jq -r .jr64485 | /bin/bash
+
